@@ -1,0 +1,10 @@
+body {
+    /* height: 1000px; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    /* --mdc-theme-primary: #2D3B44; */
+}

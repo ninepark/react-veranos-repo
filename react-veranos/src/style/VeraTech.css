@@ -1,0 +1,120 @@
+.v_tech_div {
+    background-color: #ececec;
+    padding-top: 100px;
+    height: auto;
+}
+.v_tech_img_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.v_tech_img {
+    width: 55%;
+    height: auto;
+}
+.v_tech_content_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.v_tech_grid {
+    width: 80%;
+    height: auto;
+}
+.v_tech_grid_cell {
+    /* padding-right: 20px; */
+    /* overflow: hidden; */
+}
+.v_tech_title {
+    width: 250px;
+    height: 60px;
+    background-color: #2A3B44;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.v_tech_title .v_h6 {
+    font-family: Roboto-Medium;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+    text-align: center;
+    vertical-align: middle;
+}
+.v_tech_desc {
+    width: 220px;
+    height: 330px;
+    background-color: #FFFFFF;
+    padding: 15px 15px 20px;
+    position: relative;
+    overflow: hidden;
+}
+.v_tech_desc .v_b2 {
+    width: 100%;
+}
+.v_tech_desc_img {
+    width:100%;
+    position: absolute;
+    bottom: 30px;
+    left:0;
+}
+
+@media screen and (max-width: 500px) {
+    .v_tech_div {
+        padding-top: 60px;
+    }
+    .v_tech_div .v_title {
+        padding: 0 15px 0 15px ;
+        font-size: 24px;
+        letter-spacing: 0.1px;
+        line-height: 30px;
+    }
+    .v_tech_img_div {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .v_tech_img {
+        width: 85%;
+    }
+    .v_tech_content_div {
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .v_tech_desc {
+        height: 285px;
+    }
+    .v_tech_desc_img {
+        bottom: 0px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 501px){
+    .v_tech_grid {
+        width: 90%;
+    }
+    .v_tech_title {
+        width: 200px;
+        height: 60px;
+    }
+    .v_tech_title .v_h6 {
+        font-size: 20px;
+    }
+    .v_tech_desc {
+        width: 184px;
+        height: 280px;
+        padding: 8px 8px 20px;
+    }
+    .v_tech_desc .v_b2 {
+        width: 100%;
+        font-size: 13px;
+    }
+    .v_tech_desc_img {
+        bottom: 10px;
+    }
+}

@@ -1,0 +1,65 @@
+.v_team_div {
+    background-color: #FFFFFF;
+    padding-top: 100px;
+}
+.v_team_div .v_title {
+    font-size: 30px;
+}
+.v_team_img_div {
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.v_team_img_grid {
+    width: 80%;
+}
+.v_team_modal_btn {
+    width:auto;
+    height:auto;
+}
+.v_team_img {
+    position: relative;
+}
+.v_team_name_div {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.v_team_name {
+    font-family: Roboto-Light;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #363d41;
+    vertical-align: middle;
+    letter-spacing: 2px;
+}
+
+.v_modal_header {
+    position: relative;
+}
+.v_modal_close_btn {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.v_modal_body {
+    padding: 10px 20px 50px 20px;
+}
+.v_modal_name {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .v_team_img_grid {
+        width: 100%;
+    }
+    .v_team_div .mdc-layout-grid__cell {
+        grid-column-end: span 2;
+    }
+}

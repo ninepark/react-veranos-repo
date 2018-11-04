@@ -1,0 +1,11 @@
+.v_TopAppBar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+.v_TopAppBar_logo {
+    width: 150px;
+}
+@media screen and (max-width: 500px) {
+    .v_TopAppBar_logo {
+        width: 100px;
+    }
+}

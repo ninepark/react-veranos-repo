@@ -1,0 +1,81 @@
+.v_intro_div {
+    background-color: #FFFFFF;
+    padding-top: 125px;
+    height: auto;
+}
+.v_intro_grid_div {
+    margin-top: 125px;
+    margin-bottom: 125px;
+    /* display: inline-block; */
+}
+.v_intro_grid {
+    width: 80%;
+}
+.v_intro_grid_cell {
+    display: flex;
+    flex-wrap: wrap;
+    /* Optional. only if you want the items to wrap */
+    justify-content: center;
+    /* For horizontal alignment */
+    align-items: center;
+    /* For vertical alignment */
+}
+.v_intro_grid_img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+}
+.v_intro_grid .v_h6 {
+    font-family: Roboto-Medium;
+    font-size: 20px;
+    color: rgba(0,0,0,0.87);
+    letter-spacing: 0.25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.v_intro_grid .v_b2 {
+    width: 80%;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: rgba(0,0,0,0.60);
+    letter-spacing: 0.25px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .v_intro_div {
+        padding-top: 60px;
+    }
+    .v_intro_div .v_title {
+        padding: 0 15px 0 15px ;
+        font-size: 24px;
+        letter-spacing: 0.1px;
+        line-height: 30px;
+    }
+    .v_intro_div .v_desc {
+        padding: 0 35px 0 35px ;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .v_intro_grid_div {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .v_intro_grid {
+        width: 70%;
+    }
+    .v_intro_grid_cell {
+        margin-top: 30px;
+    }
+    .v_intro_grid .v_h6 {
+        font-size: 18px;
+    }
+    .v_intro_grid .v_b2 {
+        width: 100%;
+        color: black;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
